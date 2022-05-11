@@ -1,0 +1,8 @@
+# Create a Django Project
+
+Step1: Django requires Python to be installed.
+       To Check Python is installed::  
+          Command: pythin --version
+          
+Step2: Install Django.
+       command: pip install Django==4.0.4
