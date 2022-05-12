@@ -1,8 +1,59 @@
-# Create a Django Project
+# Commands for Creating a Django Project
 
 Step1: Django requires Python to be installed.
        To Check Python is installed::  
-          Command: pythin --version
+            Command: python --version
           
 Step2: Install Django.
        command: pip install Django==4.0.4
+
+       To Check Python is installed::
+            Command: django-admin --version
+                            or
+                     python -m django --version
+
+Step3: Create Django Project.
+       command: django-admin startproject project_name
+
+Step4: Run the server.
+       command: python manage.py runserver
+                        or
+                python manage.py runserver <your IP address>:8080
+                (get IP address command: ipconfig)
+
+Step5: Create App in Project.
+       cd project_name
+       command: python manage.py startapp app_name
+
+Step6: Add app_name in INSTALLED_APPS of settings.py file.
+
+Step7: Add ALLOWED_HOSTS in settings.py file.
+
+Step8: Include app urls to project urls.py file.
+
+Step9: Create tables in models.py.
+
+Step10: Migration to DB.
+        command: 1. python manage.py makemigrations
+                            or
+                    python manage.py makemigrations app_name
+
+                    (app_name should be added in INSTALLED_APP, else No change will be detected)
+
+                 2. python manage.py migrate
+
+Step11: Write Function in views.py.
+
+Step12: Register tables in admin.py.
+
+Step13: Create admin Credentials to access admin UI.
+        commands: python manage.py createsuperuser
+
+
+##################################################################################
+1. For Testing Python file using "PyLInt" Python module
+   command to install: pip install pylint
+   command to run:     pylint filename.py -r y
+
+2. For Testing Python file using "unitest" Python module
+   command to install: pip install unitest
