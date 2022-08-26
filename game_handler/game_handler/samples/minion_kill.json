@@ -1,0 +1,8 @@
+{
+    "type": "MINION_KILL",
+    "gameTime": 982016,
+    "payload": {
+        "playerID": "live:lol:riot:player:d8839010-91c5-3ec1-bde6-32dc55abfd74",
+        "goldGranted": 21
+    }
+}

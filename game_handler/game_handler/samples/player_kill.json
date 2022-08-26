@@ -1,0 +1,14 @@
+{
+    "gameTime": 1795293,
+    "type": "PLAYER_KILL",
+    "payload": {
+        "killerID": "live:lol:riot:player:671651b4-b1e3-3739-8b8b-faf8ba0b83ba",
+        "victimID": "live:lol:riot:player:cdc1b37f-c9d0-3a7e-a201-8dd5b0bd99bb",
+        "goldGranted": 750,
+        "assistants": [
+            "live:lol:riot:player:b8945185-74af-35f1-8f66-89043bc89e91",
+            "live:lol:riot:player:8981cd0c-5a46-384d-8223-176358dcc5c5"
+        ],
+        "assistGold": 187
+    }
+}

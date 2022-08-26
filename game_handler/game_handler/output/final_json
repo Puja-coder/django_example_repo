@@ -1,0 +1,151 @@
+{
+  "matchID": "riot:lol:match:f969bd21-4223-4efc-90bd-a4769761f681",
+  "type": "MATCH_END",
+  "payload": {
+    "fixture": {
+      "startTime": "2022-04-10T15:15:00Z",
+      "title": "LOL",
+      "seriesCurrent": 1,
+      "seriesMax": 5,
+      "seriesType": "BEST_OF"
+    },
+    "teams": [
+      {
+        "teamID": "riot:lol:team:101383793574360315",
+        "players": [
+          {
+            "playerID": "riot:lol:player:d8839010-91c5-3ec1-bde6-32dc55abfd74",
+            "gold": 3788.0,
+            "alive": "false",
+            "name": "RGE Odoamne",
+            "killStatus": {
+              "minionKillCount": 82,
+              "playerKillCount": 25,
+              "assistsCount": 25
+            }
+          },
+          {
+            "playerID": "riot:lol:player:cdc1b37f-c9d0-3a7e-a201-8dd5b0bd99bb",
+            "gold": 3062.0,
+            "alive": "false",
+            "name": "RGE Malrang",
+            "killStatus": {
+              "minionKillCount": 6,
+              "playerKillCount": 25,
+              "assistsCount": 25
+            }
+          },
+          {
+            "playerID": "riot:lol:player:a5846f69-3c0d-32b7-bc94-01dbcb260e26",
+            "gold": 3727.0,
+            "alive": "true",
+            "name": "RGE Larssen",
+            "killStatus": {
+              "minionKillCount": 108,
+              "playerKillCount": 25,
+              "assistsCount": 25
+            }
+          },
+          {
+            "playerID": "riot:lol:player:f114d45a-be6d-38a1-b163-525423dee8ed",
+            "gold": 3775.0,
+            "alive": "false",
+            "name": "RGE Comp",
+            "killStatus": {
+              "minionKillCount": 125,
+              "playerKillCount": 25,
+              "assistsCount": 25
+            }
+          },
+          {
+            "playerID": "riot:lol:player:404eeb82-f744-3a4c-aa49-88d29f4ae5fb",
+            "gold": 1841.0,
+            "alive": "false",
+            "name": "RGE Trymbi",
+            "killStatus": {
+              "minionKillCount": 12,
+              "playerKillCount": 25,
+              "assistsCount": 25
+            }
+          }
+        ],
+        "teamKillStatus": {
+          "dragonKill": {
+            "dragonType": "",
+            "count": 0
+          },
+          "nashorKillCount": 0,
+          "towerKillCount": 60
+        }
+      },
+      {
+        "teamID": "riot:lol:team:98767991926151025",
+        "players": [
+          {
+            "playerID": "riot:lol:player:8981cd0c-5a46-384d-8223-176358dcc5c5",
+            "gold": 5133.0,
+            "alive": "true",
+            "name": "G2 BrokenBlade",
+            "killStatus": {
+              "minionKillCount": 108,
+              "playerKillCount": 25,
+              "assistsCount": 25
+            }
+          },
+          {
+            "playerID": "riot:lol:player:b8945185-74af-35f1-8f66-89043bc89e91",
+            "gold": 4367.0,
+            "alive": "true",
+            "name": "G2 Jankos",
+            "killStatus": {
+              "minionKillCount": 5,
+              "playerKillCount": 25,
+              "assistsCount": 25
+            }
+          },
+          {
+            "playerID": "riot:lol:player:671651b4-b1e3-3739-8b8b-faf8ba0b83ba",
+            "gold": 7806.0,
+            "alive": true,
+            "name": "G2 caPs",
+            "killStatus": {
+              "minionKillCount": 89,
+              "playerKillCount": 25,
+              "assistsCount": 25
+            }
+          },
+          {
+            "playerID": "riot:lol:player:96473a95-f9ec-36d7-a7a7-88b75d21644e",
+            "gold": 5628.0,
+            "alive": "true",
+            "name": "G2 Flakked",
+            "killStatus": {
+              "minionKillCount": 128,
+              "playerKillCount": 25,
+              "assistsCount": 25
+            }
+          },
+          {
+            "playerID": "riot:lol:player:ce9e0be9-0b7b-3669-afb5-6e50650a3048",
+            "gold": 2238.0,
+            "alive": "true",
+            "name": "G2 Targamas",
+            "killStatus": {
+              "minionKillCount": 16,
+              "playerKillCount": 25,
+              "assistsCount": 25
+            }
+          }
+        ],
+        "teamKillStatus": {
+          "dragonKill": {
+            "dragonType": "earth",
+            "count": 4
+          },
+          "nashorKillCount": 1,
+          "towerKillCount": 60
+        }
+      }
+    ]
+  }
+}

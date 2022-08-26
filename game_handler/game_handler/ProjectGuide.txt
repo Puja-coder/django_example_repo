@@ -1,0 +1,24 @@
+
+1. Game state handler:
+
+    filename:- game_state_handler.py
+               Created separate function for all the events.
+
+    Input:: Parsing json from data/ directory and update as per requirement
+
+    Output:: Creating file in output/ directory:
+        1. final_json --> It contains all the updated (gold, kill count, alive status e.t.c) after match end.
+        2. all_event_list_json --> It contains list of each event with all the updated (gold, kill count, alive status etc) data.
+
+
+2. Unittest python file:
+
+   filename:- unitTest_GameStateHandler.py
+
+   For Testing Python file using "PyLInt" Python module:
+   command to install: pip install pylint
+   command to run:     pylint filename.py -r y
+
+   For Testing Python file using "unitest" Python module
+   command to install: pip install unitest
+   run: python unitTest_GameStateHandler.py
